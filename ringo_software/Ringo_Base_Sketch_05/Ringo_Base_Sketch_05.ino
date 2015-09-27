@@ -40,10 +40,8 @@ void loop(){
 
   // put your code here inside the loop() function.  Here's a quick example that makes the eyes alternate colors....
   OnEyes(0,50,50);      // you can remove this stuff and put your own code here
-  TxIRKey(1);
   delay(1000);          // delay 1 second (1000 milliseconds = 1 second)
   OnEyes(50,0,50);      //
-  TxIRKey(1);
   delay(1000);          //
   
 }
